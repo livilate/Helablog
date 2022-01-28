@@ -12,7 +12,7 @@ class ServerSettings(BaseSettings):
 
 
 class DatabaseSettings(BaseSettings):
-    DB_URL: str = "mongodb+srv://Livilate:96M8aSLtedE9pISi@cluster0.2qxhs.mongodb.net/Helablog?retryWrites=true&w=majority"
+    DB_URL: str = ""
     DB_NAME: str = "Helablog"
 
 
